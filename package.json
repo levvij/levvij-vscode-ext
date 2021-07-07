@@ -1,0 +1,26 @@
+{
+    "name": "levvij",
+    "displayName": "@levvij",
+    "description": "levvij config",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "levvij dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/levvij-dark.json"
+            },
+            {
+                "label": "levvij light",
+                "uiTheme": "vs-dark",
+                "path": "./themes/levvij-light.json"
+            }
+        ]
+    }
+}
